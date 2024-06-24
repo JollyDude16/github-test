@@ -1,13 +1,17 @@
 {
-  "name": "tcp_echo",
+  "name": "tcp-echo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "client": "node client.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "type":"module"
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
